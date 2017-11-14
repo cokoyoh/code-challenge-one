@@ -1,0 +1,96 @@
+body{
+  font-family: 'Proxima Nova', Georgia, sans-serif;
+}
+.top-bar{
+
+  .menu{
+    text-transform: uppercase;
+  }
+}
+
+.header{
+  padding: 30px 0 30px;
+  text-align: center;
+  font-size: 90px;
+  color: #fff;
+  background: url(../images/the-ridge.jpg) center center no-repeat;
+  background-size: cover;
+  height: 450px;
+}
+
+.section-a{
+  padding: 30px 30px;
+  margin-bottom: 30px;
+}
+
+.section-b{
+  padding: 30px 0 30px;
+  margin-bottom: 30px;
+}
+
+.section-c{
+  padding: 30px 0 30px;
+  background: url(../images/the-ridge.jpg) center center no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.section-d{
+  padding: 30px 0 30px;
+}
+
+.section-e{
+  padding: 30px 0 30px;
+}
+
+.section-f{
+  padding: 30px 0 30px;
+  background: url(../images/the-ridge.jpg) center center no-repeat;
+  background-size: cover;
+  height: 300px;
+  color: #fff;
+}
+
+.partners{
+  padding: 30px 0 30px;
+  h4{
+    text-align: center;
+  }
+}
+
+.other-developments{
+  padding: 30px 0 30px;
+  background-color: #000;
+  color: #fff;
+  h4{
+    text-align: center;
+  }
+  .situ{
+    background: url(../images/estates/situ.jpeg) center center no-repeat;
+    background-size: cover;
+    height: 350px;
+    color: #fff;
+    text-align: center;
+  }
+  .amara{
+    background: url(../images/estates/amara.jpeg) center center no-repeat;
+    background-size: cover;
+    height: 350px;
+    color: #fff;
+    text-align: center;
+  }
+  .alma{
+    background-color: darkred;
+    color: #fff;
+    text-align: center;
+  }
+  .button{
+    align-items: center;
+  }
+}
+
+.footer{
+  padding: 60px 0 60px;
+  background-color: #3c763d;
+  color: #fff;
+}
