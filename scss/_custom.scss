@@ -170,9 +170,15 @@ a{
 }
 
 .other-developments{
-  padding: 30px 0 30px;
+  padding: 60px 0 40px;
   background-color: #000;
   color: #fff;
+  a{
+    text-transform: uppercase!important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    color: #fff;
+  }
   h4{
     text-align: center;
   }
@@ -183,24 +189,42 @@ a{
   .situ{
     background: url(../images/estates/situ.jpeg) center center no-repeat;
     background-size: cover;
-    height: 350px;
+    //height: 350px;
+    max-height: 350px;
+    min-height: 350px;
     color: #fff;
     text-align: center;
   }
   .amara{
     background: url(../images/estates/amara.jpeg) center center no-repeat;
     background-size: cover;
-    height: 350px;
+    //height: 350px;
+    max-height: 350px;
+    min-height: 350px;
     color: #fff;
     text-align: center;
   }
   .alma{
     background-color: darkred;
     color: #fff;
+    //height: 350px;
+    max-height: 350px;
+    min-height: 350px;
     text-align: center;
   }
   .button{
-    align-items: center;
+    background-color: transparent !important;
+    border: 2px solid #fff !important;
+    border-radius: 5px;
+    width: 180px;
+    margin-left: 45%;
+    margin-top: 40px;
+    a{
+      text-transform: uppercase!important;
+      font-size: 12px !important;
+      font-weight: 500 !important;
+      color: #fff;
+    }
   }
 }
 
